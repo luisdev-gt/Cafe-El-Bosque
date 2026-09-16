@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css?v1.0">
+    <title>Café El Bosque</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Café El Bosque</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#hero">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutUs">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menú</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="container-fluid bg-body-tertiary text-center py-5">
+            <h1 class="display-4 fw-bold">Café El Bosque</h1>
+            <p class="lead mb-4">Café, naturaleza y buenos momentos.</p>
+
+            <button id="menu-button" class="btn btn-primary me-2">Ver nuestro menú</button>
+            <button id="contact-button" class="btn btn-outline-secondary">Contáctanos</button>
+        </section>
+
+        <section id="aboutUs" class="container py-5 text-center">
+            <h2 class="mb-3">Sobre Nosotros</h2>
+            <p class="lead">En Café El Bosque, nos apasiona ofrecer una experiencia única a nuestros clientes. 
+                Nuestro café es cuidadosamente seleccionado y preparado para brindar el mejor sabor 
+                en cada taza. Además, nuestro ambiente acogedor y rodeado de naturaleza hace que cada 
+                visita sea especial.</p>
+        </section>
+
+        <section id="menu" class="d-flex justify-content-center flex-wrap gap-3">
+            <h2 class="w-100 text-center">Menú</h2>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Cafés</h5>
+                    <p class="card-text">Descubre nuestra selección de cafés premium, preparados con los granos más finos y cuidadosamente tostados.</p>
+                    <a href="#" class="card-link">Ver más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Comidas</h5>
+                    <p class="card-text">Disfruta de nuestras deliciosas comidas, preparadas con ingredientes frescos y de alta calidad.</p>
+                    <a href="#" class="card-link">Ver más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Bebidas Frías</h5>
+                    <p class="card-text">Refresca tu día con nuestras deliciosas bebidas frías, ideales para los momentos más calurosos.</p>
+                    <a href="#" class="card-link">Ver más</a>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <section id="gallery">
+            <h2>Galería</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/OIP.jpeg" alt="Imagen 1" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/OIP2.jpeg" alt="Imagen 2" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/OIP3.jpg" alt="Imagen 3" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="container py-5 text-center">
+            <h2 class="mb-4">Contacto</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-3">
+                    <h3 class="h5">Teléfono</h3>
+                    <p><a href="tel:+50255550123">+502 5555-0123</a></p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="h5">Ubicación</h3>
+                    <address>San Marcos, Guatemala</address>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="h5">Horario</h3>
+                    <p>Lunes–Viernes: <br> 7:00 AM – 7:00 PM <br>
+                        Sábado–Domingo: <br> 8:00 AM – 8:00 PM <br>
+                        Martes:<br> cerrado</p>
+                </div>
+            </div>
+            <a class="btn btn-success mt-3" href="https://wa.me/50255550123" target="_blank" rel="noopener noreferrer">
+                Contactar por WhatsApp
+            </a>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-3">Café El Bosque</p>
+        <nav aria-label="Navegación del pie de página">
+            <ul class="nav justify-content-center mb-3">
+                <li class="nav-item"><a class="nav-link text-white" href="#hero">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#aboutUs">Sobre Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#menu">Menú</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#gallery">Galería</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <p class="mb-0">&copy; 2026 Café El Bosque. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js?v1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+
+</body>
+</html>
